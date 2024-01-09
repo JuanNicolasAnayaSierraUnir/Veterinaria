@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PetFriend.Shared/1.0.0": {
+        "runtime": {
+          "PetFriend.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PetFriend.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

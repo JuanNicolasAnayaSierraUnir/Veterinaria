@@ -1,0 +1,148 @@
+body[b-hk0oqm3a54] {
+    height: 100%;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.bl_wrapper[b-hk0oqm3a54] {
+    margin: 10px auto;
+    max-width: 60vw;
+}
+
+#svg_tramp[b-hk0oqm3a54] {
+    display: block;
+    height: 70vh;
+    margin: -30px auto 0;
+}
+
+.btn_home[b-hk0oqm3a54] {
+    position: relative;
+    display: block;
+    width: 120px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #be6440;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s all;
+    z-index: 3;
+}
+
+    .btn_home:hover[b-hk0oqm3a54],
+    .btn_home:focus[b-hk0oqm3a54] {
+        transition: 0.2s all;
+        color: #fff;
+        background-color: #f00;
+    }
+
+.text_forgiveness[b-hk0oqm3a54] {
+    font-size: 20px;
+    font-family: "Permanent Marker", cursive;
+    stroke: #525250;
+    stroke-miterlimit: 10;
+}
+
+.st2[b-hk0oqm3a54] {
+    fill: #be6440;
+}
+
+.st4[b-hk0oqm3a54] {
+    fill: #4a687d;
+}
+
+.st6[b-hk0oqm3a54] {
+    fill: #b0b0b0;
+}
+
+.st7[b-hk0oqm3a54] {
+    fill: #ecba9d;
+}
+
+.st10[b-hk0oqm3a54] {
+    fill: #a34426;
+}
+
+.st13[b-hk0oqm3a54] {
+    fill: #eceaea;
+}
+
+.st15[b-hk0oqm3a54] {
+    fill: #384f64;
+}
+
+.st24[b-hk0oqm3a54] {
+    fill: #a74929;
+}
+
+.st25[b-hk0oqm3a54] {
+    fill: #903820;
+}
+
+.st34[b-hk0oqm3a54] {
+    fill: #545454;
+}
+
+.st35[b-hk0oqm3a54] {
+    fill: #8d361f;
+}
+
+.st38[b-hk0oqm3a54] {
+    fill: #ccd0d3;
+}
+
+.st39[b-hk0oqm3a54] {
+    fill: #cacfd1;
+}
+
+.st40[b-hk0oqm3a54] {
+    fill: #caced1;
+}
+
+.st43[b-hk0oqm3a54] {
+    fill: #b8c0c4;
+}
+
+.st44[b-hk0oqm3a54] {
+    fill: #b9c0c5;
+}
+
+.st49[b-hk0oqm3a54] {
+    fill: #b9c0c4;
+}
+
+.st55[b-hk0oqm3a54] {
+    fill: #b8c0c3;
+}
+
+.st60[b-hk0oqm3a54] {
+    fill: #2e3192;
+}
+
+.st61[b-hk0oqm3a54] {
+    fill: none;
+    stroke: #c1bfc0;
+    stroke-miterlimit: 10;
+}
+
+.st62[b-hk0oqm3a54] {
+    fill: #525250;
+}
+
+.aboutMe a[b-hk0oqm3a54] {
+    display: block;
+    width: 30%;
+    position: fixed;
+    bottom: 0.1%;
+    left: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.5em;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+

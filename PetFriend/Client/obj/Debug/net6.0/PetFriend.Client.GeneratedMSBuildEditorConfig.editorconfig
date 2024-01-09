@@ -1,0 +1,83 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = PetFriend.Client
+build_property.RootNamespace = PetFriend.Client
+build_property.ProjectDir = C:\Users\juana\OneDrive\Documentos\Universidad\PetFriend\PetFriend\Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\juana\OneDrive\Documentos\Universidad\PetFriend\PetFriend\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/Pages/Findowners.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmluZG93bmVycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/Pages/Veterinarians.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmV0ZXJpbmFyaWFucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/Pages/VistasNicolas/Findowner.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzdGFzTmljb2xhc1xGaW5kb3duZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/Pages/VistasNicolas/Principal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzdGFzTmljb2xhc1xQcmluY2lwYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/Pages/VistasNicolas/Veterinarian.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzdGFzTmljb2xhc1xWZXRlcmluYXJpYW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/Pages/VistasNicolas/Errores.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzdGFzTmljb2xhc1xFcnJvcmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-hk0oqm3a54
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-llso6vqrgc
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7ifzfmx55t
+
+[C:/Users/juana/OneDrive/Documentos/Universidad/PetFriend/PetFriend/Client/Shared/NavMenuUp.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnVVcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-y4m1b73i60

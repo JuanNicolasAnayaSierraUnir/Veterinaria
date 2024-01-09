@@ -1,0 +1,427 @@
+﻿@page "/findowner"
+
+<div class="container">
+    @switch (MenuViews)
+    {
+        case "Pets":
+            <div class="card">
+                <div class="card-header text-center">
+                    Mascotas
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <label><b>Nombre :</b> @OwnersDTOs.Name</label>
+                                </div>
+                                <div class="col-3">
+                                    <label><b>Direccion :</b> @OwnersDTOs.Address</label>
+                                </div>
+                                <div class="col-3">
+                                    <label><b>Ciudad :</b> @OwnersDTOs.City</label>
+                                </div>
+                                <div class="col-3">
+                                    <label><b>Telefono :</b> @OwnersDTOs.Telephone</label>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="text-center">
+                                    <button class="btn btn-primary mt-2" type="button" onclick="@AddPets">
+                                        <img src="./imgs/Create.png" style="height:1.5rem;" />
+                                        Agregar Mascotas
+                                    </button>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-secondary mt-2" type="button" onclick="@Return">
+                                        <img src="./imgs/Volver.png" style="height:1.5rem;" />
+                                        Regresar
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12">
+                                    <h5 class="mt-4">Lista de Mascotas</h5>
+                                    <table class="table table-dark table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Nombre</th>
+                                                <th scope="col">Fecha de Nacimiento</th>
+                                                <th scope="col">Tipo</th>
+                                                <th scope="col">Visitas</th>
+                                                <th scope="col">Acciones</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            @foreach (var item in petsDTOsAlls)
+                                            {
+                                                <tr>
+
+                                                    <td scope="row">@item.Name</td>
+                                                    <td>@item.BirthDate</td>
+                                                    <td>@item.Types</td>
+                                                    <td>
+                                                        <table class="table table-info table-striped">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th scope="col">Fecha Visita</th>
+                                                                    <th scope="col">Descripcion</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                @foreach (var item2 in item.Visits)
+                                                                {
+                                                                    <tr>
+                                                                        <th scope="row">@item2.Date</th>
+                                                                        <th>@item2.Description</th>
+                                                                    </tr>
+                                                                }
+                                                            </tbody>
+                                                        </table>
+
+                                                    </td>
+                                                    <td>
+                                                        <div class="row">
+                                                            <div class="col-4">
+                                                                <button class="btn btn-primary" type="button" onclick="@(() => UpdatePets(item.Id))">
+                                                                    <img src="./imgs/Editar.png" style="height:1.5rem;" />
+                                                                    Editar
+                                                                </button>
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <button class="btn btn-danger" type="button" onclick="@(() => DeletePets(item.Id))">
+                                                                    <img src="./imgs/Delete.png" style="height:1.5rem;" />
+                                                                    Eliminar
+                                                                </button>
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <button class="btn btn-success" type="button" onclick="@(() => Visitas(item.Id))">
+                                                                    <img src="./imgs/Calendar.png" style="height:1.5rem;" />
+                                                                    Visitas
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            break;
+
+        case "Visit":
+            <div class="card">
+                <div class="card-header text-center">
+                    Visitas
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3">
+                                    <label><b>Nombre :</b> @PetsDT.Name</label>
+                                </div>
+                                <div class="col-3">
+                                    <label><b>Fecha Nacimiento :</b> @PetsDT.BirthDate</label>
+                                </div>
+                                <div class="col-3">
+                                    <label><b>Tipo de Mascota :</b> @PetsDT.Types</label>
+                                </div>
+                                <div class="col-3">
+                                    <label><b>Propietario :</b> @OwnersDTOs.Name</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <form @onsubmit="CreateVisit">
+
+                            <div class="form-floating mb-2">
+                                <input type="date" class="form-control" id="fechaNacimiento" @bind-value="FechaVisita" required>
+                                <label class="small" for="FechadeNacimiento">Fecha de Visita</label>
+                            </div>
+
+                            <div class="form-floating mb-2">
+                                <input type="text" class="form-control" id="Description" maxlength="50" @bind-value="visitsDTOs.Description" required>
+                                <label class="small" for="Description">Descripcion</label>
+                            </div>
+
+                            <label class="text-black">Veterinario</label>
+                            <select class="form-select" id="Type" name="Type" @bind="visitsDTOs.Veterinarian" required>
+                                <option value=0>Seleccione una Opcion</option>
+                                @foreach (var item in veterinariansAlls)
+                                {
+                                    <option value=@item.Id>@item.Name</option>
+                                }
+                            </select>
+
+                            <div class="text-center">
+                                <button class="btn btn-primary mt-2" type="submit">
+                                    <img src="./imgs/add.png" style="height:1.5rem;" />
+                                    Agregar Visita
+                                </button>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-secondary mt-2" type="button" onclick="@Pets">
+                                    <img src="./imgs/Volver.png" style="height:1.5rem;" />
+                                    Regresar
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <h5 class="mt-4">Visitas Previas</h5>
+                            <table class="table table-dark table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Fecha</th>
+                                        <th scope="col">Descripcion</th>
+                                        <th scope="col">Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    @foreach (var item in visitsDTOsAlls)
+                                    {
+                                        <tr>
+
+                                            <td scope="row">@item.Date</td>
+                                            <td>@item.Description</td>
+                                            <td>
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <button class="btn btn-primary" type="button" onclick="@(() => UpdateVisitas(item.Id))">
+                                                            <img src="./imgs/Editar.png" style="height:1.5rem;" />
+                                                            Editar
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <button class="btn btn-danger" type="button" onclick="@(() => DeleteVisitas(item.Id))">
+                                                            <img src="./imgs/Delete.png" style="height:1.5rem;" />
+                                                            Eliminar
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            break;
+
+        case "AddPets":
+            <div class="card">
+                <div class="card-header text-center">
+                    Crear-Editar Mascotas
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <form @onsubmit="CreatePets">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <label><b>Propietario :</b> @OwnersDTOs.Name</label>
+                                    </div>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="text" class="form-control" id="txtNombres" maxlength="50" @bind-value="petsDTOs.Name" required>
+                                    <label class="small" for="txtNombres">Nombre</label>
+                                </div>
+
+                                <div class="form-floating mb-2">
+                                    <input type="date" class="form-control" id="fechaNacimiento" @bind-value="Fecha" required>
+                                    <label class="small" for="FechadeNacimiento">Fecha de Nacimiento</label>
+                                </div>
+
+                                <label class="text-black">Type</label>
+                                <select class="form-select" id="Type" name="Type" @bind="petsDTOs.Types" required>
+                                    <option value="">Seleccione una Opcion</option>
+                                    <option value="Bird">Bird</option>
+                                    <option value="Cat">Cat</option>
+                                    <option value="Dog">Dog</option>
+                                    <option value="Hamster">Hamster</option>
+                                    <option value="Lizard">Lizard</option>
+                                    <option value="Snake">Snake</option>
+                                </select>
+
+                                <div class="text-center">
+                                    <button class="btn btn-primary mt-2" type="submit">
+                                        <img src="./imgs/add.png" style="height:1.5rem;" />
+                                        Añadir Mascota
+                                    </button>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-secondary mt-2" type="button" onclick="@Pets">
+                                        <img src="./imgs/Volver.png" style="height:1.5rem;" />
+                                        Regresar
+                                    </button>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            break;
+
+        case "AddOwner":
+            <div class="card">
+                <div class="card-header text-center">
+                    Crear-Editar Propietarios
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <form @onsubmit="CreateVeterinarian">
+
+                                <div class="form-floating mb-2">
+                                    <input type="text" class="form-control" id="Nombres" maxlength="50" @bind-value="OwnersDTOs.Name" required>
+                                    <label class="small" for="Nombres">Nombres</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="text" class="form-control" id="Apellidos" maxlength="50" @bind-value="OwnersDTOs.LastName" required>
+                                    <label class="small" for="Apellidos">Apellidos</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="text" class="form-control" id="Direccion" maxlength="50" @bind-value="OwnersDTOs.Address" required>
+                                    <label class="small" for="Direccion">Direccion</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="text" class="form-control" id="Ciudad" maxlength="50" @bind-value="OwnersDTOs.City" required>
+                                    <label class="small" for="Ciudad">Ciudad</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="tel" class="form-control" id="Telefono" maxlength="10" @bind-value="OwnersDTOs.Telephone" required>
+                                    <label class="small" for="Telefono">Telefono</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="text" class="form-control" id="txtUserName" maxlength="50" @bind-value="OwnersDTOs.UserName" required>
+                                    <label class="small" for="txtUserName">Usuario</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="password" class="form-control" id="txtPassword" maxlength="50" @bind-value="OwnersDTOs.Password" required>
+                                    <label class="small" for="txtPassword">Contraseña</label>
+                                </div>
+
+                                <div class="text-center">
+                                    <button class="btn btn-primary mt-2" type="submit">
+                                        <img src="./imgs/add.png" style="height:1.5rem;" />
+                                        Agregar Propietario
+                                    </button>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-secondary mt-2" type="button" onclick="@Return">
+                                        <img src="./imgs/Volver.png" style="height:1.5rem;" />
+                                        Regresar
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            break;
+        case "FindOwners":
+            break;
+        default:
+            <div class="card">
+                <div class="card-header text-center">
+                    Propietarios y Mascotas
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="input-group mb-3">
+                                <input class="form-control" placeholder="Buscar por nombre de propietario" type="text" @bind-value=NameVeterinarie>
+                                <button class="btn btn-secondary" type="button" onclick="@BuscarVeterinarian">
+                                    <img src="./imgs/search.svg" style="height:1.5rem;" />
+                                    Buscar Propietarios
+                                </button>
+                                <button class="btn btn-primary" type="button" onclick="@AddOwner">
+                                    <img src="./imgs/Create.png" style="height:1.5rem;" />
+                                    Agregar Propietarios
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <h5 class="mt-4">Lista de Propietarios</h5>
+                            <table class="table table-dark table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Nombre</th>
+                                        <th scope="col">Direccion</th>
+                                        <th scope="col">Ciudad</th>
+                                        <th scope="col">Telefono</th>
+                                        <th scope="col">Mascotas</th>
+                                        <th scope="col">Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    @foreach (var item in OwnersDTOsAll)
+                                    {
+                                        <tr>
+
+                                            <td scope="row">@item.Name</td>
+                                            <td>@item.Address</td>
+                                            <td>@item.City</td>
+                                            <td>@item.Telephone</td>
+                                            <td>@item.Pets</td>
+                                            <td>
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <button class="btn btn-primary" type="button" onclick="@(() => Update(item.Id))">
+                                                            <img src="./imgs/Editar.png" style="height:1.5rem;" />
+                                                            Editar
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <button class="btn btn-danger" type="button" onclick="@(() => Delete(item.Id))">
+                                                            <img src="./imgs/Delete.png" style="height:1.5rem;" />
+                                                            Eliminar
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <button class="btn btn-success" type="button" onclick="@(() => Mascota(item.Id))">
+                                                            <img src="./imgs/Mascotas.png" style="height:1.5rem;" />
+                                                            Mascotas
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            break;
+    }
+</div>

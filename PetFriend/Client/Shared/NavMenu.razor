@@ -1,0 +1,49 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href=""><img class="img-fluid" style="height: 2rem;" src="./imgs/logo.svg"/> PET FRIEND</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <img class="img-fluid mx-1" style="height: 2rem;" src="./imgs/home.svg" /> HOME
+            </NavLink>
+        </div>
+        <div class="nav-item">
+            <NavLink class="nav-link" href="findowners">
+                <img class="img-fluid mx-1" style="height: 2rem;" src="./imgs/search.svg" /> FIND OWNERS
+            </NavLink>
+        </div>
+        <div class="nav-item">
+            <NavLink class="nav-link" href="veterinarians">
+                <img class="img-fluid mx-1" style="height: 2rem;" src="./imgs/veterinarians.svg" /> VETERINARIANS
+            </NavLink>
+        </div>
+        <div class="nav-item">
+            <NavLink class="nav-link" href="errores">
+                <img class="img-fluid mx-1" style="height: 2rem;" src="./imgs/error.svg" /> ERROR
+            </NavLink>
+        </div>
+@*         <div class="nav-item">
+            <NavLink class="nav-link" href="profile">
+                <img class="img-fluid mx-1" style="height: 2rem;" src="./imgs/perfil.svg" /> IVAN TORRES
+            </NavLink>
+        </div> *@
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

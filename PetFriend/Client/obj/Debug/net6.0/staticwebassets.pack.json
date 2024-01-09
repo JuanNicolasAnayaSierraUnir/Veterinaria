@@ -1,0 +1,389 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\obj\\Debug\\net6.0\\compressed\\l67yxql2mj.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PetFriend.Client.styles.css",
+      "PackagePath": "staticwebassets\\PetFriend.Client.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\obj\\Debug\\net6.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\obj\\Debug\\net6.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\bootstrap\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\4.jpg",
+      "PackagePath": "staticwebassets\\imgs\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\Calendar.png",
+      "PackagePath": "staticwebassets\\imgs\\Calendar.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\Create.png",
+      "PackagePath": "staticwebassets\\imgs\\Create.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\Delete.png",
+      "PackagePath": "staticwebassets\\imgs\\Delete.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\Editar.png",
+      "PackagePath": "staticwebassets\\imgs\\Editar.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\Home.png",
+      "PackagePath": "staticwebassets\\imgs\\Home.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\Invitado.png",
+      "PackagePath": "staticwebassets\\imgs\\Invitado.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\Mascotas.png",
+      "PackagePath": "staticwebassets\\imgs\\Mascotas.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\Veterinario.png",
+      "PackagePath": "staticwebassets\\imgs\\Veterinario.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\Volver.png",
+      "PackagePath": "staticwebassets\\imgs\\Volver.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\add.png",
+      "PackagePath": "staticwebassets\\imgs\\add.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\addpet.svg",
+      "PackagePath": "staticwebassets\\imgs\\addpet.svg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\addvisit.svg",
+      "PackagePath": "staticwebassets\\imgs\\addvisit.svg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\create.svg",
+      "PackagePath": "staticwebassets\\imgs\\create.svg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\edit.svg",
+      "PackagePath": "staticwebassets\\imgs\\edit.svg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\editpet.svg",
+      "PackagePath": "staticwebassets\\imgs\\editpet.svg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\error.svg",
+      "PackagePath": "staticwebassets\\imgs\\error.svg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\history.svg",
+      "PackagePath": "staticwebassets\\imgs\\history.svg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\home.svg",
+      "PackagePath": "staticwebassets\\imgs\\home.svg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\logo.png",
+      "PackagePath": "staticwebassets\\imgs\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\logo.svg",
+      "PackagePath": "staticwebassets\\imgs\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\logoBlazor.png",
+      "PackagePath": "staticwebassets\\imgs\\logoBlazor.png"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\perfil.svg",
+      "PackagePath": "staticwebassets\\imgs\\perfil.svg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\search.svg",
+      "PackagePath": "staticwebassets\\imgs\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\imgs\\veterinarians.svg",
+      "PackagePath": "staticwebassets\\imgs\\veterinarians.svg"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\js\\bootstrap\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\js\\bootstrap\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\js\\bootstrap\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\js\\bootstrap\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\js\\bootstrap\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\js\\bootstrap\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\js\\bootstrap\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\js\\bootstrap\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\js\\bootstrap\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\js\\bootstrap\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\js\\bootstrap\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\js\\bootstrap\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.PetFriend.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.PetFriend.Client.props",
+      "PackagePath": "build\\PetFriend.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.PetFriend.Client.props",
+      "PackagePath": "buildMultiTargeting\\PetFriend.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.PetFriend.Client.props",
+      "PackagePath": "buildTransitive\\PetFriend.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

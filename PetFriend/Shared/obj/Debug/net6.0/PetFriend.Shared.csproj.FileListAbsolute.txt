@@ -1,0 +1,12 @@
+C:\Users\juana\OneDrive\Documentos\Universidad\PetFriend\PetFriend\Shared\bin\Debug\net6.0\PetFriend.Shared.deps.json
+C:\Users\juana\OneDrive\Documentos\Universidad\PetFriend\PetFriend\Shared\bin\Debug\net6.0\PetFriend.Shared.dll
+C:\Users\juana\OneDrive\Documentos\Universidad\PetFriend\PetFriend\Shared\bin\Debug\net6.0\PetFriend.Shared.pdb
+C:\Users\juana\OneDrive\Documentos\Universidad\PetFriend\PetFriend\Shared\obj\Debug\net6.0\PetFriend.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juana\OneDrive\Documentos\Universidad\PetFriend\PetFriend\Shared\obj\Debug\net6.0\PetFriend.Shared.AssemblyInfoInputs.cache
+C:\Users\juana\OneDrive\Documentos\Universidad\PetFriend\PetFriend\Shared\obj\Debug\net6.0\PetFriend.Shared.AssemblyInfo.cs
+C:\Users\juana\OneDrive\Documentos\Universidad\PetFriend\PetFriend\Shared\obj\Debug\net6.0\PetFriend.Shared.csproj.CoreCompileInputs.cache
+C:\Users\juana\OneDrive\Documentos\Universidad\PetFriend\PetFriend\Shared\obj\Debug\net6.0\PetFriend.Shared.sourcelink.json
+C:\Users\juana\OneDrive\Documentos\Universidad\PetFriend\PetFriend\Shared\obj\Debug\net6.0\PetFriend.Shared.dll
+C:\Users\juana\OneDrive\Documentos\Universidad\PetFriend\PetFriend\Shared\obj\Debug\net6.0\refint\PetFriend.Shared.dll
+C:\Users\juana\OneDrive\Documentos\Universidad\PetFriend\PetFriend\Shared\obj\Debug\net6.0\PetFriend.Shared.pdb
+C:\Users\juana\OneDrive\Documentos\Universidad\PetFriend\PetFriend\Shared\obj\Debug\net6.0\ref\PetFriend.Shared.dll

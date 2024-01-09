@@ -1,0 +1,251 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Server\\PetFriend.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\PetFriend.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\PetFriend.Client.csproj",
+        "projectName": "PetFriend.Client",
+        "projectPath": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\PetFriend.Client.csproj",
+        "packagesPath": "C:\\Users\\juana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\juana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/9RNi2cVCcmwk32vrBmO6jIQNzMbe7PjdNcnK3Q3AeGkZJJPKMS/api": {},
+          "https://nuget.telerik.com/nuget/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Shared\\PetFriend.Shared.csproj": {
+                "projectPath": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Shared\\PetFriend.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CurrieTechnologies.Razor.SweetAlert2": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Microsoft.NET.ILLink.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23211.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23211.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Server\\PetFriend.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Server\\PetFriend.Server.csproj",
+        "projectName": "PetFriend.Server",
+        "projectPath": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Server\\PetFriend.Server.csproj",
+        "packagesPath": "C:\\Users\\juana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\juana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/9RNi2cVCcmwk32vrBmO6jIQNzMbe7PjdNcnK3Q3AeGkZJJPKMS/api": {},
+          "https://nuget.telerik.com/nuget/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\PetFriend.Client.csproj": {
+                "projectPath": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Client\\PetFriend.Client.csproj"
+              },
+              "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Shared\\PetFriend.Shared.csproj": {
+                "projectPath": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Shared\\PetFriend.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.24, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Shared\\PetFriend.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Shared\\PetFriend.Shared.csproj",
+        "projectName": "PetFriend.Shared",
+        "projectPath": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Shared\\PetFriend.Shared.csproj",
+        "packagesPath": "C:\\Users\\juana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juana\\OneDrive\\Documentos\\Universidad\\PetFriend\\PetFriend\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\juana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/9RNi2cVCcmwk32vrBmO6jIQNzMbe7PjdNcnK3Q3AeGkZJJPKMS/api": {},
+          "https://nuget.telerik.com/nuget/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

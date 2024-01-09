@@ -1,0 +1,38 @@
+﻿@inherits LayoutComponentBase
+
+@*   <div class="page">
+    <div class="sidebar">
+        <NavMenuUp />
+    </div>
+
+    <main>
+
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>   *@
+
+<body >
+    <div>
+        <NavMenuUp />
+    </div>
+
+    <div class="container-fluid pt-4">
+
+        <div class="mt-4">
+            @Body
+        </div>
+        
+        <div class="">
+            <footer class="text-center bi-footer text-muted">
+                <hr />
+                Copyright &copy; @DateTime.Now.Year - PetClinic <br />
+                <b>Microsoft ASP.NET Core Blazor Technology</b> <img src="./imgs/logoBlazor.png" height="20" width="20" /><br />
+                <b>PetClinic es una aplicación PWA (Progressive Web App) </b> <br />
+            </footer>
+        </div>
+    </div>
+</body>
+

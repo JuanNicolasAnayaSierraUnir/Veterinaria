@@ -1,0 +1,157 @@
+﻿@page "/veterinarian"
+
+<div class="container">
+    @switch (MenuViews)
+    {
+        case "AddVeterinarian":
+            <div class="card">
+                <div class="card-header text-center">
+                    Crear Veterinarios
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <form @onsubmit="CreateVeterinarian">
+                                <h1 class="text-center">Crear/Editar Veterinario</h1>
+
+                                <div class="form-floating mb-2">
+                                    <input type="text" class="form-control" id="txtNombres" maxlength="50" @bind-value="VeterinariansDto.Name" required>
+                                    <label class="small" for="txtNombres">Nombres</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="text" class="form-control" id="txtApellidos" maxlength="50" @bind-value="VeterinariansDto.LastName" required>
+                                    <label class="small" for="txtApellidos">Apellidos</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="text" class="form-control" id="txtUserName" maxlength="50" @bind-value="VeterinariansDto.UserName" required>
+                                    <label class="small" for="txtUserName">Usuario</label>
+                                </div>
+                                <div class="form-floating mb-2">
+                                    <input type="password" class="form-control" id="txtPassword" maxlength="50" @bind-value="VeterinariansDto.Password" required>
+                                    <label class="small" for="txtPassword">Contraseña</label>
+                                </div>
+
+                                @if (especialidades)
+                                {
+                                    <div class="form-floating mb-2">
+                                        <input type="text" class="form-control" id="text" maxlength="50" @bind-value="Specialty">
+                                        <label class="small" for="text">Especialidad</label>
+                                    </div>
+                                    <button class="btn btn-success" type="button" @onclick="AddSpecialty">
+                                        Añadir Especialidad
+                                    </button>
+
+                                    <table class="table-success mt-2">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Nombre Especialidad Agregadas</th>                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var element in SpecialtiesList)
+                                            {
+                                                <tr>
+                                                    <td colspan="1">
+                                                        <span style="background-color: limegreen !important;" class="badge-circle k-badge k-badge-md k-badge k-badge-success">
+                                                            @element
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                }
+
+                                <div class="text-center">
+                                    <button class="btn btn-primary mt-2" type="submit">
+                                        <img src="./imgs/add.png" style="height:1.5rem;" />
+                                        Añadir Veterinario
+                                    </button>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-secondary mt-2" type="button" onclick="@Return">
+                                        <img src="./imgs/Volver.png" style="height:1.5rem;" />
+                                        Regresar
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            break;
+        case "FindVeterinarian":
+            break;
+        default:
+
+            <div class="card">
+                <div class="card-header text-center">
+                    Veterinarios
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="input-group mb-3">
+                                <input class="form-control" placeholder="Buscar por nombre de veterinario" type="text" @bind-value=NameVeterinarie>
+                                <button class="btn btn-secondary" type="button" onclick="@BuscarVeterinarian">
+                                    <img src="./imgs/search.svg" style="height:1.5rem;" />
+                                    Buscar
+                                </button>
+                                <button class="btn btn-primary" type="button" onclick="@AddVeterinarian">
+                                    <img src="./imgs/Create.png" style="height:1.5rem;" />
+                                    Agregar Veterinarios
+                                </button>
+                            </div>                     
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <h5 class="mt-4">Lista de Veterinarios</h5>
+                            <table class="table table-dark table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Nombre</th>
+                                        <th scope="col">Especialidades</th>
+                                        <th scope="col">Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    @foreach (var item in veterinariansAllDTs)
+                                    {
+                                        <tr>
+
+                                            <td scope="row">@item.Name</td>
+                                            <td>@item.Specialties</td>
+                                            <td>
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <button class="btn btn-primary" type="button" onclick="@(() => Update(item.Id))">
+                                                            <img src="./imgs/Editar.png" style="height:1.5rem;" />
+                                                            Editar
+                                                        </button>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <button class="btn btn-danger" type="button" onclick="@(() => Delete(item.Id))">
+                                                            <img src="./imgs/Delete.png" style="height:1.5rem;" />
+                                                            Eliminar
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            
+            break;
+    }
+</div>
